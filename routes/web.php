@@ -22,3 +22,5 @@ Route::post('/tinhtong','App\Http\Controllers\ViDuController@tinhtong');
 
 Route::get("/qlsach/theloai","App\Http\Controllers\BookController@laythongtintheloai");
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\BookController@laythongtinsach");
+
+Route::get('/kieuoanh','App\Http\Controllers\kieuoanhController@kieuoanhne');
