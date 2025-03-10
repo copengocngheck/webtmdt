@@ -24,3 +24,7 @@ Route::get("/qlsach/theloai","App\Http\Controllers\BookController@laythongtinthe
 Route::get("/qlsach/thongtinsach","App\Http\Controllers\BookController@laythongtinsach");
 
 Route::get('/kieuoanh','App\Http\Controllers\kieuoanhController@kieuoanhne');
+Route::get('/Thanktuyen','App\Http\Controllers\kieuoanhController@Thanktuyen');
+
+Route::get("hello","App\Http\Controllers\helloController@bale");
+

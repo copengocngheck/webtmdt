@@ -10,4 +10,8 @@ class kieuoanhController extends Controller
     function kieuoanhne(){
         return view('kieuoanh');
     }
+    function Thanktuyen(){
+        return view('Thanktuyen');
+    }
 }
+
